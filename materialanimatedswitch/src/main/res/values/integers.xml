@@ -4,4 +4,6 @@
   <integer name="alpha_animation_duration">200</integer>
   <integer name="animation_curvature_compensation">14</integer>
   <integer name="exitAnimator">200</integer>
+  <integer name="default_switch_width">45</integer>
+  <integer name="default_switch_height">25</integer>
 </resources>
