@@ -1,7 +1,6 @@
 Material Animated Switch  
 -----------------
-[![Download](https://api.bintray.com/packages/glomadrian/maven/MaterialAnimatedSwitch/images/download.svg) ](https://bintray.com/glomadrian/maven/MaterialAnimatedSwitch/_latestVersion)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Material%20Animated%20Switch-green.svg?style=flat)](https://android-arsenal.com/details/1/1985)
+[![Download](https://api.bintray.com/packages/kmenager/maven/material-animated-switch/images/download.svg) ](https://bintray.com/kmenager/maven/material-animated-switch/_latestVersion)
 
 A material Switch with icon animations and color transitions
 
@@ -55,6 +54,11 @@ With custom colors and icons attributes
      app:ball_press_color="@color/md_white_1000"
      app:icon_release="@drawable/ic_play_arrow_white_36dp"
      app:icon_press="@drawable/ic_stop_deep_orange_500_36dp"
+     app:ball_radius="15dp"
+     app:switch_width="65dp"
+     app:switch_height="35dp"
+     app:margin="17dp"
+     app:icon_size="25dp"
      />
 ```
 
@@ -70,21 +74,16 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 For Gradle
 ---------------------
 
-Add repository
-
-```groovy
-repositories {
-  maven {
-    url "http://dl.bintray.com/glomadrian/maven"
-  }
-}
-```
 Add dependency
 ```groovy
-compile 'com.github.glomadrian:MaterialAnimatedSwitch:1.1@aar'
+compile 'com.github.kmenager:MaterialAnimatedSwitch:1.2.0'
 ```
 Changelog
 ---------------------
+V 1.2
+
+* Fixed bug that called listener twice when switch checked
+* Add new options in xml files
 
 V 1.1
 
@@ -94,14 +93,13 @@ V 1.1
 
 Developed By
 ------------
-Adrián García Lomas - <glomadrian@gmail.com>
-* [Twitter](https://twitter.com/glomadrian)
-* [LinkedIn](https://es.linkedin.com/in/glomadrian )
+Kevin Ménager - <kevmenager@gmail.com>
+Based on Adrián García Lomas [Material Animated Switch](https://github.com/glomadrian/material-animated-switch)
 
 License
 -------
 
-    Copyright 2015 Adrián García Lomas
+    Copyright 2015 Kevin Ménager
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
