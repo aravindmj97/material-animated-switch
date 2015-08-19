@@ -34,7 +34,7 @@ How to use
 By default show the inbox pinned switch
 
 ```xml
-<com.github.glomadrian.materialanimatedswitch.MaterialAnimatedSwitch
+<com.github.kmenager.materialanimatedswitch.MaterialAnimatedSwitch
      android:id="@+id/pin"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
@@ -44,7 +44,7 @@ By default show the inbox pinned switch
 
 With custom colors and icons attributes
 ```xml
-<com.github.glomadrian.materialanimatedswitch.MaterialAnimatedSwitch
+<com.github.kmenager.materialanimatedswitch.MaterialAnimatedSwitch
      android:id="@+id/pin"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"  
@@ -74,12 +74,26 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 For Gradle
 ---------------------
 
-Add dependency
+Grab via Gradle:
 ```groovy
-compile 'com.github.kmenager:MaterialAnimatedSwitch:1.2.0'
+compile 'com.github.kmenager:material-animated-switch:1.2.1'
+```
+
+or Maven:
+```xml
+<dependency>
+  <groupId>com.github.kmenager</groupId>
+  <artifactId>material-animated-switch</artifactId>
+  <version>1.2.1</version>
+</dependency>
 ```
 Changelog
 ---------------------
+V 1.2.1
+
+* Remove application name in library
+* Fixed pressed state icon moves when keyboard opens or closes
+
 V 1.2
 
 * Fixed bug that called listener twice when switch checked
@@ -94,6 +108,7 @@ V 1.1
 Developed By
 ------------
 Kevin Ménager - <kevmenager@gmail.com>
+
 Based on Adrián García Lomas [Material Animated Switch](https://github.com/glomadrian/material-animated-switch)
 
 License

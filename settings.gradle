@@ -1,1 +1,2 @@
-include ':app', ':materialanimatedswitch'
+include ':app', ':material-animated-switch'
+
