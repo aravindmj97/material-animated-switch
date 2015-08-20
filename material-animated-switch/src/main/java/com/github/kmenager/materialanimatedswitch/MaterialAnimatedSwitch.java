@@ -98,10 +98,10 @@ public class MaterialAnimatedSwitch extends View {
                 attributes.getColor(R.styleable.materialAnimatedSwitch_ball_press_color, ballColorPress);
         pressIcon = BitmapFactory.decodeResource(getResources(),
                 attributes.getResourceId(R.styleable.materialAnimatedSwitch_icon_press,
-                        R.drawable.tack_save_button_32_blue));
+                        R.drawable.ic_pin_blue_36dp));
         releaseIcon = BitmapFactory.decodeResource(getResources(),
                 attributes.getResourceId(R.styleable.materialAnimatedSwitch_icon_release,
-                        R.drawable.tack_save_button_32_white));
+                        R.drawable.ic_pin_white_36dp));
         ballRadius = (int) attributes.getDimension(R.styleable.materialAnimatedSwitch_ball_radius,
                 getResources().getDimension(R.dimen.ball_radius));
 

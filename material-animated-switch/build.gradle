@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/kmenager/material-animated-switch'
     gitUrl = 'https://github.com/kmenager/material-animated-switch.git'
 
-    libraryVersion = '1.2.1'
+    libraryVersion = '1.2.2'
 
     developerId = 'kmenager'
     developerName = 'Kevin Menager'
@@ -29,10 +29,10 @@ android {
     buildToolsVersion "23.0.0"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
-        versionName "1.2.1"
+        versionName "1.2.2"
     }
     buildTypes {
         release {

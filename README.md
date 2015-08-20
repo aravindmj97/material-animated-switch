@@ -76,7 +76,14 @@ For Gradle
 
 Grab via Gradle:
 ```groovy
-compile 'com.github.kmenager:material-animated-switch:1.2.1'
+repositories {
+  maven {
+    url "http://dl.bintray.com/kmenager/maven"
+  }
+}
+dependencies {
+  compile 'com.github.kmenager:material-animated-switch:1.2.2'
+}
 ```
 
 or Maven:
@@ -84,11 +91,16 @@ or Maven:
 <dependency>
   <groupId>com.github.kmenager</groupId>
   <artifactId>material-animated-switch</artifactId>
-  <version>1.2.1</version>
+  <version>1.2.2</version>
 </dependency>
 ```
 Changelog
 ---------------------
+V 1.2.2
+
+* Set min SDK version to 14
+* Change the default inbox icon with different dpi
+
 V 1.2.1
 
 * Remove application name in library
