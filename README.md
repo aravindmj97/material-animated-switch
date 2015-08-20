@@ -76,11 +76,6 @@ For Gradle
 
 Grab via Gradle:
 ```groovy
-repositories {
-  maven {
-    url "http://dl.bintray.com/kmenager/maven"
-  }
-}
 dependencies {
   compile 'com.github.kmenager:material-animated-switch:1.2.2'
 }
